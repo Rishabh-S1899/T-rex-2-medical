@@ -1,4 +1,6 @@
-# torch
-# torchvision
 timm                   # For loading the Swin Transformer backbone
 transformers           # For loading the CLIP text encoder
+einops                 # For flexible tensor operations
+# mmcv==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.3/index.html
+# regex                  # Required by mmengine for config parsing
+# termcolor==1.1.0       # Required for Python < 3.9 (for functools.cache)
